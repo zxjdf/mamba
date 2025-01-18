@@ -15,7 +15,7 @@ except ImportError:
 
 from mamba_ssm.ops.triton.layer_norm import _layer_norm_fwd
 
-import selective_scan_cuda
+# import selective_scan_cuda
 
 
 class SelectiveScanFn(torch.autograd.Function):
